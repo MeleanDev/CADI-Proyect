@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Plus - Cursos para Menores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary-orange fs-3" href="index.html">Academia Plus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold active" href="#" id="cursosDropdown" role="button" data-bs-toggle="dropdown">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cursos-empresas.html">Cursos para Empresas</a></li>
+                            <li><a class="dropdown-item active" href="cursos-menores.html">Cursos para Menores</a></li>
+                            <li><a class="dropdown-item" href="cursos-ejecutivos.html">Cursos Ejecutivos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="preinscripciones.html">Preinscripciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary-blue text-white">
+        <div class="container">
+            <div class="row align-items-center min-vh-50">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-3">Cursos para Menores</h1>
+                    <p class="lead">Programas educativos diseñados para el desarrollo integral de niños y adolescentes</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
+                            <li class="breadcrumb-item active text-primary-orange">Cursos para Menores</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-child display-1 text-primary-orange"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Age Groups -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="display-6 fw-bold text-primary-blue mb-4">Grupos por Edades</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-baby fa-3x text-primary-orange mb-3"></i>
+                            <h4 class="text-primary-blue">5-8 años</h4>
+                            <p>Iniciación y desarrollo de habilidades básicas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-child fa-3x text-primary-orange mb-3"></i>
+                            <h4 class="text-primary-blue">9-12 años</h4>
+                            <p>Fortalecimiento de competencias intermedias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-user-graduate fa-3x text-primary-orange mb-3"></i>
+                            <h4 class="text-primary-blue">13-17 años</h4>
+                            <p>Preparación para el futuro académico y profesional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Curso 1 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-code fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Programación para Niños</h3>
+                            </div>
+                            <p class="card-text">Introducción al mundo de la programación de manera divertida y educativa.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Scratch y programación visual</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Lógica de programación</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Creación de juegos simples</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Pensamiento computacional</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">8-17 años</span>
+                                    <span class="badge bg-secondary ms-1">20 horas</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-robot fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Robótica Educativa</h3>
+                            </div>
+                            <p class="card-text">Construye y programa robots mientras aprendes ciencia y tecnología.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Construcción con LEGO</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Programación de robots</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Sensores y actuadores</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Proyectos colaborativos</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">10-16 años</span>
+                                    <span class="badge bg-secondary ms-1">24 horas</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-palette fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Arte y Creatividad</h3>
+                            </div>
+                            <p class="card-text">Desarrolla la creatividad y expresión artística a través de diferentes técnicas.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Dibujo y pintura</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Manualidades creativas</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Arte digital básico</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Expresión artística</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">5-15 años</span>
+                                    <span class="badge bg-secondary ms-1">16 horas</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 4 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-users fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Habilidades Sociales</h3>
+                            </div>
+                            <p class="card-text">Fortalece la comunicación, trabajo en equipo y inteligencia emocional.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Comunicación efectiva</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Trabajo en equipo</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Resolución de conflictos</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Inteligencia emocional</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">8-17 años</span>
+                                    <span class="badge bg-secondary ms-1">12 horas</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 5 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-language fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Inglés para Niños</h3>
+                            </div>
+                            <p class="card-text">Aprende inglés de manera divertida con juegos, canciones y actividades.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Vocabulario básico</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Conversación simple</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Juegos educativos</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Canciones y rimas</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">5-12 años</span>
+                                    <span class="badge bg-secondary ms-1">30 horas</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 6 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-calculator fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Matemáticas Divertidas</h3>
+                            </div>
+                            <p class="card-text">Refuerza conceptos matemáticos a través de juegos y actividades prácticas.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Operaciones básicas</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Geometría práctica</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Resolución de problemas</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Juegos matemáticos</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">6-14 años</span>
+                                    <span class="badge bg-secondary ms-1">18 horas</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-primary-blue">Beneficios de Nuestros Cursos</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-brain fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Desarrollo Cognitivo</h5>
+                        <p>Estimulamos el pensamiento crítico y la resolución de problemas</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-heart fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Inteligencia Emocional</h5>
+                        <p>Fortalecemos la autoestima y las habilidades sociales</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-lightbulb fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Creatividad</h5>
+                        <p>Fomentamos la imaginación y el pensamiento innovador</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-trophy fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Logros</h5>
+                        <p>Celebramos cada avance y construimos confianza</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="display-6 fw-bold text-primary-blue mb-4">¿Listo para que tu Hijo Aprenda?</h2>
+            <p class="lead mb-4">Inscribe a tu hijo en nuestros cursos y dale las herramientas para un futuro brillante</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="preinscripciones.html" class="btn btn-primary-orange btn-lg">Inscribir Ahora</a>
+                <a href="contacto.html" class="btn btn-outline-primary btn-lg">Más Información</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h3 class="text-primary-orange mb-3">Academia Plus</h3>
+                    <p>Transformando vidas a través de la educación de calidad.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-primary-orange mb-3">Enlaces Rápidos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+                        <li><a href="cursos-empresas.html" class="text-white text-decoration-none">Cursos Empresas</a></li>
+                        <li><a href="cursos-menores.html" class="text-white text-decoration-none">Cursos Menores</a></li>
+                        <li><a href="cursos-ejecutivos.html" class="text-white text-decoration-none">Cursos Ejecutivos</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-primary-orange mb-3">Contacto</h4>
+                    <p><i class="fas fa-phone text-primary-orange me-2"></i> +1 234 567 8900</p>
+                    <p><i class="fas fa-envelope text-primary-orange me-2"></i> info@academiaplus.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary-blue">Iniciar Sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary-orange w-100">Ingresar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

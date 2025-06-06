@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Plus - Cursos Ejecutivos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary-orange fs-3" href="index.html">Academia Plus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold active" href="#" id="cursosDropdown" role="button" data-bs-toggle="dropdown">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cursos-empresas.html">Cursos para Empresas</a></li>
+                            <li><a class="dropdown-item" href="cursos-menores.html">Cursos para Menores</a></li>
+                            <li><a class="dropdown-item active" href="cursos-ejecutivos.html">Cursos Ejecutivos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="preinscripciones.html">Preinscripciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header bg-primary-blue text-white">
+        <div class="container">
+            <div class="row align-items-center min-vh-50">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-3">Cursos Ejecutivos</h1>
+                    <p class="lead">Formación de alto nivel para profesionales que buscan potenciar su carrera y liderazgo</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
+                            <li class="breadcrumb-item active text-primary-orange">Cursos Ejecutivos</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-user-tie display-1 text-primary-orange"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Curso 1 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-graduation-cap fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">MBA Ejecutivo</h3>
+                            </div>
+                            <p class="card-text">Programa integral de administración de empresas para ejecutivos en activo.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Estrategia empresarial</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Finanzas corporativas</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Marketing estratégico</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Liderazgo ejecutivo</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">120 horas</span>
+                                    <span class="badge bg-secondary ms-1">Presencial</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-chess fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Estrategia Empresarial</h3>
+                            </div>
+                            <p class="card-text">Desarrolla habilidades para la planificación estratégica y toma de decisiones.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Análisis competitivo</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Planificación estratégica</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Innovación empresarial</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Gestión del cambio</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">60 horas</span>
+                                    <span class="badge bg-secondary ms-1">Presencial</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-chart-pie fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Finanzas Avanzadas</h3>
+                            </div>
+                            <p class="card-text">Domina las finanzas corporativas y la gestión de inversiones.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Análisis financiero</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Valoración de empresas</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Gestión de riesgos</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Mercados de capitales</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">48 horas</span>
+                                    <span class="badge bg-secondary ms-1">Presencial</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 4 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-digital-tachograph fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Transformación Digital</h3>
+                            </div>
+                            <p class="card-text">Lidera la transformación digital en tu organización.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Estrategia digital</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Tecnologías emergentes</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Cultura digital</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Innovación disruptiva</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">40 horas</span>
+                                    <span class="badge bg-secondary ms-1">Presencial</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 5 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-crown fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Liderazgo Ejecutivo</h3>
+                            </div>
+                            <p class="card-text">Potencia tus habilidades de liderazgo para dirigir organizaciones exitosas.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Liderazgo transformacional</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Coaching ejecutivo</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Comunicación de alto impacto</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Gestión de crisis</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">36 horas</span>
+                                    <span class="badge bg-secondary ms-1">Presencial</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curso 6 -->
+                <div class="col-lg-6">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-globe fa-2x text-primary-orange me-3"></i>
+                                <h3 class="card-title text-primary-blue mb-0">Negocios Internacionales</h3>
+                            </div>
+                            <p class="card-text">Expande tu visión hacia mercados globales y oportunidades internacionales.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Comercio internacional</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Culturas empresariales</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Logística global</li>
+                                <li><i class="fas fa-check text-primary-orange me-2"></i>Regulaciones internacionales</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="badge bg-primary-orange">44 horas</span>
+                                    <span class="badge bg-secondary ms-1">Presencial</span>
+                                </div>
+                                <a href="preinscripciones.html" class="btn btn-primary-orange">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-6 fw-bold text-primary-blue">¿Por qué Elegir Nuestros Cursos Ejecutivos?</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-award fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Certificación Reconocida</h5>
+                        <p>Certificados avalados por instituciones de prestigio</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-user-graduate fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Instructores Expertos</h5>
+                        <p>Profesionales con amplia experiencia ejecutiva</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-network-wired fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Networking</h5>
+                        <p>Conecta con otros ejecutivos y líderes empresariales</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-center">
+                        <i class="fas fa-rocket fa-3x text-primary-orange mb-3"></i>
+                        <h5 class="text-primary-blue">Crecimiento Profesional</h5>
+                        <p>Acelera tu carrera hacia posiciones de liderazgo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="display-6 fw-bold text-primary-blue mb-4">Impulsa tu Carrera Ejecutiva</h2>
+            <p class="lead mb-4">Únete a nuestra comunidad de líderes empresariales y transforma tu futuro profesional</p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="preinscripciones.html" class="btn btn-primary-orange btn-lg">Inscribirse Ahora</a>
+                <a href="contacto.html" class="btn btn-outline-primary btn-lg">Solicitar Información</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h3 class="text-primary-orange mb-3">Academia Plus</h3>
+                    <p>Transformando vidas a través de la educación de calidad.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-primary-orange mb-3">Enlaces Rápidos</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+                        <li><a href="cursos-empresas.html" class="text-white text-decoration-none">Cursos Empresas</a></li>
+                        <li><a href="cursos-menores.html" class="text-white text-decoration-none">Cursos Menores</a></li>
+                        <li><a href="cursos-ejecutivos.html" class="text-white text-decoration-none">Cursos Ejecutivos</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-primary-orange mb-3">Contacto</h4>
+                    <p><i class="fas fa-phone text-primary-orange me-2"></i> +1 234 567 8900</p>
+                    <p><i class="fas fa-envelope text-primary-orange me-2"></i> info@academiaplus.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary-blue">Iniciar Sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary-orange w-100">Ingresar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
